@@ -4,6 +4,23 @@ A custom dark theme for the Unraid web interface, with blue and orange accents,
 animated ambient gradients, moving background specks, and subtle dithering to
 reduce color banding.
 
+## Preview
+
+### Dashboard
+
+![Unraid dashboard with the dark theme applied](assets/screenshots/dashboard.png)
+
+<table>
+  <tr>
+    <td align="center"><strong>Main</strong></td>
+    <td align="center"><strong>Settings</strong></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/main.png" alt="Unraid Main page with the dark theme applied"></td>
+    <td><img src="assets/screenshots/settings.png" alt="Unraid Settings page with the dark theme applied"></td>
+  </tr>
+</table>
+
 ## Features
 
 - Dark, translucent interface surfaces
