@@ -1,0 +1,1022 @@
+html.Theme--white:root,
+:root {
+    --theme-accent: #5b8bd9;
+
+    --background-color: #1a1a1e;
+    --text-color: #d0d4da;
+    --text-primary: #d0d4da;
+    --text-secondary: #787c84;
+    --link-text-color: var(--theme-accent);
+    --border-color: #2a2a30;
+    --table-border-color: #2a2a30;
+    --table-header-background-color: rgba(35, 35, 42, 0.9);
+    --table-background-color: rgba(26, 26, 30, 0.8);
+    --dashboard-background-color: rgba(30, 30, 35, 0.85);
+    --mild-background-color: rgba(30, 30, 35, 0.85);
+    --title-header-background-color: rgba(35, 35, 42, 0.9);
+    --title-header-text-color: #d0d4da;
+    --dashboard-icon-color: #b0b4ba;
+    --dashboard-title-action-color: transparent;
+    --alt-text-color: #b0b4ba;
+    --inverse-text-color: #d0d4da;
+    --disabled-text-color: #555;
+    --blockquote-text-color: #a0a4aa;
+    --input-bg-color: rgba(40, 40, 48, 0.8);
+    --input-border-color: #2a2a30;
+    --focus-input-bg-color: rgba(50, 50, 58, 0.9);
+    --textarea-border-color: #2a2a30;
+    --button-bg-color: rgba(255, 255, 255, 0.05);
+    --button-border-color: #2a2a30;
+    --button-text-color: #e68a2e;
+    --button-border: 1px solid #2a2a30;
+    --button-background: rgba(255, 255, 255, 0.05);
+    --button-background-size: auto;
+    --hover-button-text-color: #fff;
+    --hover-button-background: rgba(255, 255, 255, 0.1);
+    --hover-button-border: var(--theme-accent);
+    --dropdown-bg-color: rgba(26, 26, 30, 0.97);
+    --brand-orange: #e68a2e;
+    --brand-red: #e74c3c;
+    --usage-bar-background-color: #2a2a32;
+    --usage-bar-used-background-color: var(--theme-accent);
+    --usage-disk-background-color: #2a2a32;
+    --radio-background-color: #2a2a30;
+    --checkbox-color: #2a2a30;
+    --checkbox-hover-color: #3a3a40;
+    --opac-background-color: rgba(26, 26, 30, 0.95);
+    --inverse-background-color: #1a1a1e;
+    --footer-text: #787c84;
+    --footer-background-color: transparent;
+    --header-text-color: #d0d4da;
+    --header-background-color: transparent;
+    --hr-color: #2a2a30;
+    --small-shadow: 0 0 3px rgba(0,0,0,0.3);
+    --scrollbar-color: #333;
+    --scrollbar-hover-color: #555;
+    --shade-bg-color: rgba(30, 30, 35, 0.85);
+    --hover-table-row-background-color: rgba(255, 255, 255, 0.03);
+    --dynamix-sweet-alert-text-color: #d0d4da;
+    --dynamix-sweet-alert-icon-bg-color: #1a1a1e;
+    --dynamix-tablesorter-thead-row-border-color: #2a2a30;
+    --dynamix-tablesorter-thead-th-text-color: #787c84;
+    --dynamix-tablesorter-thead-th-bg-color: rgba(35, 35, 42, 0.9);
+    --dynamix-tablesorter-tbody-row-alt-bg-color: rgba(30, 30, 35, 0.8);
+    --dynamix-tablesorter-tbody-row-bg-color: rgba(26, 26, 30, 0.8);
+    --dynamix-tablesorter-tbody-row-border-color: #2a2a30;
+    --dynamix-select-box-shadow: none;
+    --dynamix-select-disabled-bg-color: rgba(30, 30, 35, 0.5);
+    --dynamix-select-disabled-border-color: #2a2a30;
+    --dynamix-select-disabled-color: #787c84;
+    --dynamix-ui-dropdownchecklist-color: #d0d4da;
+    --dynamix-ui-dropdownchecklist-color-alt1: rgba(30, 30, 35, 0.85);
+    --dynamix-ui-dropdownchecklist-color-alt2: #555;
+    --bg-opacity-10: rgba(255, 255, 255, 0.1);
+    --bg-opacity-30: rgba(255, 255, 255, 0.3);
+    --theme-white--mild-gray-100: rgba(30, 30, 35, 0.85);
+    --gray-100: #1a1a1e;
+    --gray-150: rgba(35, 35, 42, 0.9);
+    --gray-200: #2a2a30;
+    --gray-300: #333;
+    --gray-400: #555;
+    --gray-500: #666;
+    --gray-700: rgba(30, 30, 35, 0.85);
+    --gray-800: #b0b4ba;
+    --gray-900: #d0d4da;
+    --gray-895: rgba(26, 26, 30, 0.95);
+    --black-opacity-05: rgba(255, 255, 255, 0.03);
+    --black-opacity-30: transparent;
+    --template-background: rgba(30, 30, 35, 0.85);
+    --template-hover-background: rgba(40, 40, 48, 0.85);
+    --template-favourite: #555;
+    --sidebar-background: transparent;
+    --sidebar-text: #d0d4da;
+    --a-color: var(--theme-accent);
+    --support-popup-text: #d0d4da;
+    --support-popup-background: rgba(30, 30, 35, 0.95);
+    --mod-comment-border: #2a2a30;
+    --ca-legacy-background-color: transparent;
+    --tooltipster-content: #1a1a1e;
+    --chart-grid: #2a2a30;
+    --input-dfm-target-filter-bg-color: #1a1a1e;
+    --input-dfm-target-text-color: #d0d4da;
+    --input-dfm-target-filterbg-bg-color: #1a1a1e;
+}
+
+html {
+    min-height: 100%;
+    background: #1a1a1e url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEwODAiIHZpZXdCb3g9IjAgMCAxOTIwIDEwODAiPgogIDxyZWN0IHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEwODAiIGZpbGw9IiMxYTFhMWUiLz4KICA8ZGVmcz4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iYjEiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjUwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMyNjc4YzkiIHN0b3Atb3BhY2l0eT0iMC4zIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAlIiBzdG9wLWNvbG9yPSIjMjY3OGM5IiBzdG9wLW9wYWNpdHk9IjAuMjUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIyMCUiIHN0b3AtY29sb3I9IiMyNjc4YzkiIHN0b3Atb3BhY2l0eT0iMC4xOCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjM1JSIgc3RvcC1jb2xvcj0iIzI2NzhjOSIgc3RvcC1vcGFjaXR5PSIwLjEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMyNjc4YzkiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iIzI2NzhjOSIgc3RvcC1vcGFjaXR5PSIwLjAyIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI2NzhjOSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJiMiIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNTAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q4NzkyNCIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAlIiBzdG9wLWNvbG9yPSIjZDg3OTI0IiBzdG9wLW9wYWNpdHk9IjAuMiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjIwJSIgc3RvcC1jb2xvcj0iI2Q4NzkyNCIgc3RvcC1vcGFjaXR5PSIwLjE0Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjZDg3OTI0IiBzdG9wLW9wYWNpdHk9IjAuMDgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNkODc5MjQiIHN0b3Atb3BhY2l0eT0iMC4wNCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2Q4NzkyNCIgc3RvcC1vcGFjaXR5PSIwLjAxNSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkODc5MjQiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPC9yYWRpYWxHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iYjMiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjUwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM3NDc5ODIiIHN0b3Atb3BhY2l0eT0iMC4zIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAlIiBzdG9wLWNvbG9yPSIjNzQ3OTgyIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIyMCUiIHN0b3AtY29sb3I9IiM3NDc5ODIiIHN0b3Atb3BhY2l0eT0iMC4xOCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjM1JSIgc3RvcC1jb2xvcj0iIzc0Nzk4MiIgc3RvcC1vcGFjaXR5PSIwLjEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM3NDc5ODIiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iIzc0Nzk4MiIgc3RvcC1vcGFjaXR5PSIwLjAyIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzc0Nzk4MiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogIDwvZGVmcz4KICA8ZWxsaXBzZSByeD0iMTE3MCIgcnk9IjkxMCIgZmlsbD0idXJsKCNiMSkiPgogICAgPGFuaW1hdGVNb3Rpb24gZHVyPSI5MHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBjYWxjTW9kZT0ibGluZWFyIiBrZXlQb2ludHM9IjA7MC4xMjU7MC4zNzU7MC41OzAuNjI1OzAuODc1OzEiIGtleVRpbWVzPSIwOzAuMTI1OzAuMzc1OzAuNTswLjYyNTswLjg3NTsxIiBwYXRoPSJNMCwxMDgwIEwwLDAgTDk2MCwwIEwxOTIwLDAgTDE5MjAsMTA4MCBMOTYwLDEwODAgWiIvPgogIDwvZWxsaXBzZT4KICA8ZWxsaXBzZSByeD0iMTE3MCIgcnk9IjkxMCIgZmlsbD0idXJsKCNiMikiPgogICAgPGFuaW1hdGVNb3Rpb24gZHVyPSI5MHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBjYWxjTW9kZT0ibGluZWFyIiBrZXlQb2ludHM9IjA7MC4xMjU7MC4zNzU7MC41OzAuNjI1OzAuODc1OzEiIGtleVRpbWVzPSIwOzAuMTI1OzAuMzc1OzAuNTswLjYyNTswLjg3NTsxIiBwYXRoPSJNOTYwLDAgTDE5MjAsMCBMMTkyMCwxMDgwIEw5NjAsMTA4MCBMMCwxMDgwIEwwLDAgWiIvPgogIDwvZWxsaXBzZT4KICA8ZWxsaXBzZSByeD0iMTE3MCIgcnk9IjkxMCIgZmlsbD0idXJsKCNiMykiPgogICAgPGFuaW1hdGVNb3Rpb24gZHVyPSI5MHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBjYWxjTW9kZT0ibGluZWFyIiBrZXlQb2ludHM9IjA7MC4xMjU7MC4zNzU7MC41OzAuNjI1OzAuODc1OzEiIGtleVRpbWVzPSIwOzAuMTI1OzAuMzc1OzAuNTswLjYyNTswLjg3NTsxIiBwYXRoPSJNMTkyMCwxMDgwIEw5NjAsMTA4MCBMMCwxMDgwIEwwLDAgTDk2MCwwIEwxOTIwLDAgWiIvPgogIDwvZWxsaXBzZT4KPC9zdmc+Cg==') no-repeat center center / cover fixed !important;
+}
+
+body {
+    min-height: 100vh;
+    background-color: transparent !important;
+    background-image: none !important;
+    color: var(--text-color) !important;
+}
+
+#header,
+div#header {
+    background-color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#menu,
+div#menu,
+.nav-tile {
+    background-color: rgba(26, 26, 30, 0.65) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+}
+
+.nav-item a,
+.nav-link,
+#menu a,
+div.nav-tile a {
+    color: var(--text-color) !important;
+}
+
+.nav-item a:hover,
+.nav-link:hover,
+#menu a:hover {
+color: #fff !important;
+}
+
+.nav-item.active a,
+.nav-item a.active,
+.nav-link.active {
+    color: #fff !important;
+}
+
+#menu i,
+.nav-tile i,
+#header i.fa {
+color: var(--text-color) !important;
+}
+
+#menu i:hover,
+.nav-tile i:hover,
+#header i.fa:hover {
+color: #fff !important;
+}
+
+#footer,
+footer {
+    background-color: rgba(26, 26, 30, 0.95) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.04) !important;
+}
+
+#footer *,
+footer * {
+    background-color: transparent !important;
+}
+
+div.title,
+.title {
+    background-color: var(--title-header-background-color) !important;
+    color: var(--title-header-text-color) !important;
+}
+
+.TableContainer,
+div.TableContainer {
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    border-radius: 4px !important;
+}
+
+table.unraid,
+table.disk_status,
+table.share_status {
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+table.usb_mounts thead tr:first-child td,
+table.samba_mounts thead tr:first-child td,
+table.usb_absent thead tr:first-child td,
+table.usb_mounts thead td,
+table.samba_mounts thead td,
+table.usb_absent thead td,
+table.usb_device_list thead tr:first-child td,
+table.usb_device_list thead td {
+    background-color: var(--table-header-background-color) !important;
+    color: var(--text-secondary) !important;
+}
+
+table.usb_mounts tbody tr > td,
+table.samba_mounts tbody tr > td,
+table.usb_absent tbody tr > td,
+table.usb_device_list tbody tr > td {
+    background-color: rgba(26, 26, 30, 0.8) !important;
+}
+
+table.usb_mounts tbody tr:nth-child(even) > td,
+table.samba_mounts tbody tr:nth-child(even) > td,
+table.usb_absent tbody tr:nth-child(even) > td,
+table.usb_device_list tbody tr:nth-child(even) > td {
+    background-color: rgba(30, 30, 35, 0.8) !important;
+}
+
+table.usb_mounts,
+table.samba_mounts,
+table.usb_absent,
+table.usb_device_list {
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+select,
+select option,
+select optgroup {
+    background-color: rgba(40, 40, 48, 0.95) !important;
+    color: var(--text-color) !important;
+    border-color: var(--border-color) !important;
+}
+
+.usage-disk,
+.usage-disk.sys {
+    background-color: var(--usage-disk-background-color) !important;
+    border-radius: 3px !important;
+}
+
+.usage-disk.sys > span {
+    background-color: var(--theme-accent) !important;
+    border-radius: 3px !important;
+}
+
+div.pie {
+    border-radius: 50% !important;
+    border: 3px solid #2a2a32 !important;
+}
+
+div.pie span:first-child {
+    color: var(--theme-accent) !important;
+}
+
+div.pie span:last-child {
+    color: var(--text-secondary) !important;
+}
+
+i.control {
+    color: var(--dashboard-icon-color) !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+i.control:hover {
+    color: #fff !important;
+}
+
+.tile-ctrl span,
+.tile-ctrl .hand {
+    color: var(--dashboard-icon-color) !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+.tile-ctrl span:hover,
+.tile-ctrl .hand:hover {
+    color: #fff !important;
+}
+
+.frame, .grid, #content, .view-container, main, div[role="main"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+div#displaybox,
+div.content {
+    background: transparent !important;
+}
+
+a {
+    color: var(--link-text-color) !important;
+}
+
+a:hover {
+    color: #fff !important;
+}
+
+.green-text, span.green { color: #2ecc71 !important; }
+.red-text, span.red, .error { color: #e74c3c !important; }
+.orange-text, span.orange { color: #e68a2e !important; }
+
+.orb, .fa.orb, .fa-circle, .green-orb, .red-orb, .blue-orb, .orange-orb, .grey-orb,
+.green-on, .red-on, .blue-on, .grey-on, .orb-disklocation {
+    background-image: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border: none !important;
+}
+
+.green-orb, .green-on { color: #2ecc71 !important; }
+.red-orb, .red-on { color: #e74c3c !important; }
+.blue-orb, .blue-on { color: var(--theme-accent) !important; }
+.orange-orb, .orange-on, .yellow-orb { color: #e68a2e !important; }
+.grey-orb, .grey-on { color: #555 !important; }
+
+div.sidebar[role="modal"] {
+    background-color: transparent !important;
+}
+
+div.sidebar .sidenav,
+div.sidebar .sidenavHide,
+div.sidebar #sidenavContent,
+#sidenavContent {
+background-color: rgba(22, 22, 26, 0.98) !important;
+color: var(--text-color) !important;
+}
+
+.popupTableLeft,
+.popupTableRight,
+td.popupTableLeft,
+td.popupTableRight {
+    color: var(--text-color) !important;
+}
+
+.popupTable,
+table.popupTable {
+    background-color: transparent !important;
+}
+
+.popupTable td {
+    background-color: transparent !important;
+    border-color: var(--border-color) !important;
+}
+
+div#mobileMenu.mobileMenu {
+    min-height: 100vh !important;
+}
+
+div[id*="reka-dialog"],
+div[class*="reka-dialog"] {
+    background-color: rgba(22, 22, 26, 0.98) !important;
+    color: var(--text-color) !important;
+}
+
+div[id*="reka-dialog"] *,
+div[class*="reka-dialog"] * {
+    color: var(--text-color) !important;
+}
+
+div[id*="reka-dialog"] a {
+    color: var(--theme-accent) !important;
+}
+
+div[id*="reka-dialog"] span[data-state="active"],
+div[id*="reka-dialog"] span[aria-selected="true"] {
+    background-color: var(--theme-accent) !important;
+    color: #fff !important;
+}
+
+div[id*="reka-dialog"] span[data-state="inactive"],
+div[id*="reka-dialog"] span[aria-selected="false"] {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    color: var(--text-color) !important;
+}
+
+div[id*="reka-dialog"] [role="tab"][data-state="active"],
+div[id*="reka-dialog"] [role="tab"][aria-selected="true"] {
+    background-color: var(--theme-accent) !important;
+    color: #fff !important;
+}
+
+div[id*="reka-dialog"] [role="tab"][data-state="inactive"],
+div[id*="reka-dialog"] [role="tab"][aria-selected="false"] {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    color: var(--text-secondary) !important;
+}
+
+div[id*="reka-dialog"] [role="tab"]:hover {
+    color: #fff !important;
+}
+
+.spotlightDate {
+    color: #fff !important;
+}
+
+.context-menu,
+.context-menu-list,
+.dropdown-menu,
+ul.dropdown-menu {
+    background-color: rgba(26, 26, 30, 0.95) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5) !important;
+}
+
+.context-menu-item,
+.dropdown-menu li,
+.dropdown-menu > li,
+.dropdown-menu > li > a,
+.dropdown-menu li a {
+    background-color: transparent !important;
+    background-image: none !important;
+    color: var(--text-color) !important;
+}
+
+.context-menu-item:hover,
+.context-menu-item.hover,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li:hover,
+.dropdown-menu > li:hover > a,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu li:hover,
+.dropdown-menu li:hover a,
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus {
+    background-color: rgba(60, 60, 68, 0.95) !important;
+    background-image: none !important;
+    color: #fff !important;
+}
+
+.context-menu-item span,
+.dropdown-menu li a i,
+.dropdown-menu > li > a > i {
+    color: inherit !important;
+}
+
+.context-menu-separator,
+.dropdown-menu .divider {
+    background-color: var(--border-color) !important;
+    border-bottom-color: var(--border-color) !important;
+}
+
+.logLine,
+.logLine span,
+fieldset.CMD,
+fieldset.CMD *,
+p#logBody,
+p#logBody *,
+.pflogBody *,
+pre#swaltext {
+    color: var(--text-color) !important;
+}
+
+fieldset.CMD {
+    border-color: var(--border-color) !important;
+}
+
+.ui-dialog,
+.ui-dialog-content,
+div.ui-dialog,
+div[id*="dialogWindow"] {
+    background-color: rgba(26, 26, 30, 0.98) !important;
+    color: var(--text-color) !important;
+}
+
+.ui-dialog *,
+div[id*="dialogWindow"] * {
+    color: var(--text-color) !important;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    background-color: var(--title-header-background-color) !important;
+    color: var(--text-color) !important;
+    border-color: var(--border-color) !important;
+}
+
+.ui-dialog dt,
+.ui-dialog dd,
+.ui-dialog dl {
+    color: var(--text-color) !important;
+}
+
+.dfm_dialogWindow,
+#dfm_dialogWindow {
+background-color: rgba(26, 26, 30, 0.98) !important;
+color: var(--text-color) !important;
+}
+
+.dfm_dialogWindow *,
+#dfm_dialogWindow * {
+color: var(--text-color) !important;
+}
+
+i.fa.fa-check-square-o,
+i.fa.fa-square-o,
+i[class*="fa-check-square"],
+i[class*="fa-square-o"] {
+    color: var(--text-color) !important;
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0.3) !important;
+}
+
+input[type="checkbox"] {
+    accent-color: var(--theme-accent) !important;
+    outline: 1px solid rgba(255, 255, 255, 0.3) !important;
+    outline-offset: 1px;
+}
+
+.dfm_notice,
+.dfm_notice * {
+    color: var(--text-color) !important;
+}
+
+input.dfm_filter,
+input#dfm_filter {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    color: var(--text-color) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+::-webkit-scrollbar { width: 8px; background: #1a1a1e; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #555; }
+
+div[id*="reka-dialog"] span[role="button"],
+div[id*="reka-dialog"] span[role="tab"] {
+    background-color: rgba(255, 255, 255, 0.06) !important;
+    color: var(--text-secondary) !important;
+    border-color: var(--border-color) !important;
+}
+
+div[id*="reka-dialog"] span[role="button"][aria-pressed="true"],
+div[id*="reka-dialog"] span[role="button"][data-state="active"],
+div[id*="reka-dialog"] span[role="tab"][aria-selected="true"],
+div[id*="reka-dialog"] span[role="tab"][data-state="active"] {
+    background-color: var(--theme-accent) !important;
+    color: #fff !important;
+}
+
+div[id*="reka-dialog"] span[role="button"][aria-pressed="false"],
+div[id*="reka-dialog"] span[role="button"][data-state="inactive"],
+div[id*="reka-dialog"] span[role="tab"][aria-selected="false"],
+div[id*="reka-dialog"] span[role="tab"][data-state="inactive"] {
+    background-color: rgba(255, 255, 255, 0.06) !important;
+    color: var(--text-secondary) !important;
+}
+
+div[id*="reka-dialog"] span[role="button"]:hover,
+div[id*="reka-dialog"] span[role="tab"]:hover {
+    background-color: rgba(255, 255, 255, 0.12) !important;
+    color: #fff !important;
+}
+
+div[id*="reka-dialog"] span[role="button"][aria-pressed="true"]:hover,
+div[id*="reka-dialog"] span[role="button"][data-state="active"]:hover,
+div[id*="reka-dialog"] span[role="tab"][aria-selected="true"]:hover,
+div[id*="reka-dialog"] span[role="tab"][data-state="active"]:hover {
+    background-color: var(--theme-accent) !important;
+    color: #fff !important;
+}
+
+div[id*="reka-dialog"] div[role="group"] {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+    border-color: var(--border-color) !important;
+}
+
+div[id*="reka-dialog"] div.bg-input,
+div[id*="reka-dialog"] [class*="bg-input"] {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+}
+
+.fa {
+    font-family: "FontAwesome" !important;
+}
+
+/* =========================================================
+ *   MOVING SPECK BACKGROUND
+ *   Adapted from Industrial Dashboard.css
+ *   ========================================================= */
+
+@keyframes drift-s {
+    from { transform: translateY(0);      }
+    to   { transform: translateY(-100vh); }
+}
+@keyframes drift-m {
+    from { transform: translateY(0);      }
+    to   { transform: translateY(-100vh); }
+}
+@keyframes drift-l {
+    from { transform: translateY(0);      }
+    to   { transform: translateY(-100vh); }
+}
+
+/* Twinkle – etwas stärker ausgeprägt */
+@keyframes twinkle-a {
+    0%,100% { opacity: 1.0;  }
+    50%     { opacity: 0.35; }
+}
+@keyframes twinkle-b {
+    0%,100% { opacity: 0.9;  }
+    35%     { opacity: 0.20; }
+    70%     { opacity: 0.65; }
+}
+@keyframes twinkle-c {
+    0%,100% { opacity: 1.0;  }
+    40%     { opacity: 0.45; }
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 1px; height: 1px;
+    background: transparent;
+    pointer-events: none;
+    z-index: 0;
+    will-change: transform;
+    animation:
+    drift-s    220s linear  -110s   infinite,
+    twinkle-a    6s ease-in-out  0s   infinite alternate;
+    box-shadow:
+    63vw 5vh rgba(208,208,215,0.9),
+    10vw 147vh #fff,
+    3vw 44vh #fff,
+    71vw 140vh #fff,
+    80vw 1vh #fff,
+    15vw 190vh #fff,
+    36vw 68vh rgba(220,235,255,0.85),
+    53vw 194vh rgba(215,215,232,0.9),
+    62vw 176vh rgba(220,235,255,0.85),
+    5vw 45vh rgba(220,235,255,0.85),
+    86vw 76vh rgba(220,220,231,0.9),
+    35vw 133vh rgba(235,235,255,0.9),
+    63vw 106vh #fff,
+    98vw 127vh rgba(220,235,255,0.85),
+    77vw 46vh #fff,
+    7vw 182vh rgba(227,227,237,0.9),
+    49vw 176vh rgba(232,232,236,0.9),
+    24vw 112vh #fff,
+    58vw 72vh #fff,
+    9vw 9vh rgba(198,198,218,0.9),
+    67vw 119vh rgba(220,235,255,0.85),
+    52vw 193vh rgba(220,235,255,0.85),
+    11vw 176vh #fff,
+    29vw 31vh rgba(220,235,255,0.85),
+    75vw 101vh rgba(198,198,218,0.9),
+    63vw 121vh #fff,
+    77vw 106vh #fff,
+    11vw 72vh rgba(254,254,255,0.9),
+    24vw 113vh rgba(220,235,255,0.85),
+    97vw 106vh rgba(220,235,255,0.85),
+    16vw 105vh rgba(220,235,255,0.85),
+    75vw 137vh rgba(220,235,255,0.85),
+    64vw 87vh rgba(224,224,227,0.9),
+    6vw 4vh rgba(226,226,244,0.9),
+    7vw 126vh rgba(220,235,255,0.85),
+    7vw 47vh #fff,
+    72vw 176vh rgba(220,235,255,0.85),
+    80vw 38vh #fff,
+    41vw 172vh rgba(220,235,255,0.85),
+    10vw 80vh rgba(212,212,215,0.9),
+    19vw 89vh #fff,
+    87vw 15vh rgba(242,242,255,0.9),
+    65vw 108vh rgba(220,235,255,0.85),
+    84vw 33vh rgba(220,235,255,0.85),
+    89vw 33vh rgba(191,191,203,0.9),
+    78vw 91vh rgba(220,235,255,0.85),
+    48vw 38vh #fff,
+    54vw 149vh #fff,
+    91vw 106vh rgba(194,194,210,0.9),
+    18vw 118vh #fff,
+    93vw 113vh rgba(220,235,255,0.85),
+    42vw 116vh rgba(224,224,232,0.9),
+    71vw 47vh rgba(216,216,236,0.9),
+    31vw 150vh rgba(220,235,255,0.85),
+    56vw 20vh rgba(225,225,241,0.9),
+    92vw 175vh rgba(247,247,255,0.9),
+    43vw 108vh #fff,
+    66vw 110vh rgba(220,235,255,0.85),
+    13vw 23vh rgba(198,198,215,0.9),
+    28vw 42vh rgba(220,235,255,0.85),
+    50vw 50vh rgba(249,249,250,0.9),
+    42vw 55vh rgba(220,235,255,0.85),
+    26vw 148vh #fff,
+    11vw 188vh #fff,
+    83vw 116vh rgba(200,200,204,0.9),
+    36vw 186vh rgba(220,235,255,0.85),
+    21vw 50vh rgba(220,235,255,0.85),
+    40vw 124vh rgba(220,235,255,0.85),
+    97vw 161vh rgba(247,247,247,0.9),
+    92vw 156vh rgba(217,217,224,0.9),
+    78vw 22vh rgba(246,246,255,0.9),
+    81vw 92vh rgba(210,210,217,0.9),
+    65vw 79vh rgba(220,235,255,0.85),
+    28vw 128vh #fff,
+    3vw 175vh rgba(220,235,255,0.85),
+    26vw 22vh #fff,
+    97vw 23vh rgba(248,248,254,0.9),
+    70vw 0vh rgba(220,235,255,0.85),
+    93vw 147vh rgba(203,203,216,0.9),
+    66vw 66vh rgba(220,235,255,0.85),
+    30vw 62vh rgba(220,235,255,0.85),
+    55vw 38vh rgba(220,235,255,0.85),
+    89vw 122vh rgba(220,235,255,0.85),
+    30vw 42vh rgba(220,235,255,0.85),
+    46vw 88vh rgba(220,235,255,0.85),
+    95vw 146vh #fff,
+    63vw 67vh rgba(220,235,255,0.85),
+    22vw 40vh rgba(220,235,255,0.85),
+    61vw 153vh #fff,
+    71vw 76vh rgba(220,235,255,0.85),
+    1vw 149vh rgba(220,235,255,0.85),
+    22vw 160vh rgba(235,235,249,0.9),
+    25vw 169vh rgba(220,235,255,0.85),
+    98vw 118vh rgba(220,235,255,0.85),
+    71vw 100vh #fff,
+    16vw 171vh rgba(220,235,255,0.85),
+    27vw 155vh rgba(222,222,229,0.9),
+    8vw 57vh rgba(220,235,255,0.85),
+    8vw 30vh rgba(220,235,255,0.85),
+    6vw 81vh rgba(225,225,238,0.9),
+    80vw 79vh rgba(255,140,26,0.93),
+    90vw 9vh rgba(255,140,26,0.96),
+    57vw 96vh rgba(255,140,26,0.98),
+    32vw 79vh rgba(255,140,26,0.97),
+    80vw 107vh rgba(0,201,177,0.92),
+    77vw 176vh rgba(0,201,177,0.85),
+    30vw 97vh rgba(0,201,177,0.82),
+    65vw 157vh rgba(0,201,177,0.92);
+}
+
+
+html::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 1px; height: 1px;
+    background: transparent;
+    pointer-events: none;
+    z-index: 0;
+    will-change: transform;
+    animation:
+    drift-m    140s linear  -70s   infinite,
+    twinkle-b    9s ease-in-out  3s   infinite alternate;
+    box-shadow:
+    83vw 183vh rgba(254,254,255,0.9),
+    39vw 112vh #fff,
+    86vw 36vh rgba(226,226,236,0.9),
+    32vw 151vh rgba(231,231,244,0.9),
+    8vw 4vh rgba(237,237,248,0.9),
+    7vw 190vh rgba(220,235,255,0.85),
+    20vw 4vh #fff,
+    11vw 189vh rgba(220,235,255,0.85),
+    17vw 121vh rgba(220,235,255,0.85),
+    16vw 62vh #fff,
+    90vw 75vh rgba(252,252,255,0.9),
+    68vw 125vh rgba(220,235,255,0.85),
+    59vw 24vh #fff,
+    42vw 74vh rgba(236,236,246,0.9),
+    42vw 98vh rgba(220,235,255,0.85),
+    82vw 141vh rgba(220,235,255,0.85),
+    27vw 161vh #fff,
+    82vw 118vh rgba(220,235,255,0.85),
+    9vw 175vh #fff,
+    66vw 67vh rgba(235,235,245,0.9),
+    21vw 159vh rgba(220,235,255,0.85),
+    27vw 2vh rgba(253,253,255,0.9),
+    40vw 110vh rgba(220,235,255,0.85),
+    49vw 158vh #fff,
+    24vw 132vh #fff,
+    42vw 148vh rgba(229,229,243,0.9),
+    25vw 24vh rgba(220,235,255,0.85),
+    94vw 137vh rgba(224,224,239,0.9),
+    58vw 151vh rgba(220,235,255,0.85),
+    29vw 72vh rgba(228,228,245,0.9),
+    5vw 11vh rgba(220,235,255,0.85),
+    75vw 20vh #fff,
+    44vw 37vh rgba(218,218,233,0.9),
+    6vw 98vh rgba(238,238,239,0.9),
+    80vw 189vh rgba(220,220,227,0.9),
+    76vw 121vh rgba(220,235,255,0.85),
+    38vw 181vh rgba(220,235,255,0.85),
+    30vw 124vh rgba(220,235,255,0.85),
+    21vw 42vh rgba(242,242,247,0.9),
+    55vw 31vh #fff,
+    3vw 57vh rgba(227,227,241,0.9),
+    23vw 53vh rgba(220,235,255,0.85),
+    92vw 85vh rgba(237,237,255,0.9),
+    26vw 28vh #fff,
+    82vw 183vh rgba(220,235,255,0.85),
+    69vw 188vh #fff,
+    59vw 177vh rgba(244,244,255,0.9),
+    9vw 191vh #fff,
+    2vw 152vh rgba(248,248,255,0.9),
+    75vw 94vh rgba(241,241,249,0.9),
+    58vw 126vh #fff,
+    40vw 64vh #fff,
+    69vw 57vh rgba(252,252,255,0.9),
+    9vw 50vh rgba(220,235,255,0.85),
+    82vw 0vh #fff,
+    19vw 72vh #fff,
+    5vw 53vh #fff,
+    69vw 24vh rgba(220,235,255,0.85),
+    70vw 62vh rgba(217,217,230,0.9),
+    98vw 182vh rgba(220,235,255,0.85),
+    19vw 182vh rgba(255,140,26,0.79),
+    68vw 84vh rgba(255,140,26,0.84),
+    47vw 92vh rgba(255,140,26,0.74),
+    22vw 119vh rgba(0,201,177,0.92),
+    17vw 18vh rgba(0,201,177,0.93),
+    82vw 70vh rgba(0,201,177,0.94);
+}
+
+
+html::after {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 2px; height: 2px;
+    background: transparent;
+    pointer-events: none;
+    z-index: 0;
+    will-change: transform;
+    animation:
+    drift-l     80s linear  -40s   infinite,
+    twinkle-c    4s ease-in-out  1s   infinite alternate;
+    box-shadow:
+    26vw 1vh #fff,
+    65vw 172vh #fff,
+    55vw 108vh rgba(220,235,255,0.85),
+    97vw 48vh rgba(247,247,255,0.9),
+    74vw 140vh rgba(220,235,255,0.85),
+    78vw 130vh rgba(244,244,245,0.9),
+    96vw 66vh rgba(243,243,255,0.9),
+    90vw 3vh rgba(220,235,255,0.85),
+    7vw 156vh rgba(220,235,255,0.85),
+    64vw 170vh #fff,
+    31vw 143vh rgba(251,251,255,0.9),
+    7vw 126vh rgba(220,235,255,0.85),
+    43vw 20vh #fff,
+    69vw 180vh rgba(242,242,243,0.9),
+    37vw 29vh rgba(220,235,255,0.85),
+    18vw 35vh rgba(220,235,255,0.85),
+    24vw 182vh rgba(220,235,255,0.85),
+    45vw 133vh rgba(220,235,255,0.85),
+    67vw 31vh rgba(220,235,255,0.85),
+    30vw 191vh rgba(220,235,255,0.85),
+    20vw 77vh #fff,
+    36vw 59vh rgba(220,235,255,0.85),
+    65vw 55vh rgba(220,235,255,0.85),
+    74vw 166vh rgba(220,235,255,0.85),
+    35vw 127vh rgba(220,235,255,0.85),
+    89vw 129vh rgba(246,246,255,0.9),
+    36vw 26vh rgba(220,235,255,0.85),
+    17vw 26vh #fff,
+    90vw 165vh rgba(220,235,255,0.85),
+    29vw 173vh rgba(220,235,255,0.85),
+    18vw 189vh rgba(255,140,26,0.96),
+    70vw 191vh rgba(255,140,26,0.99),
+    77vw 74vh rgba(0,201,177,0.94),
+    6vw 107vh rgba(0,201,177,0.84);
+}
+
+
+/* Keep the animated specks behind the Unraid interface. */
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+}
+
+#content,
+.view-container,
+main,
+div[role="main"],
+.navbar,
+#header,
+#menu,
+#footer,
+footer {
+    position: relative;
+    z-index: 2;
+}
+
+/* Respect reduced-motion preferences. */
+@media (prefers-reduced-motion: reduce) {
+    body::before,
+    html::before,
+    html::after {
+        animation: none !important;
+    }
+}
+
+/* =========================================================
+ *   BACKGROUND COLOUR BALANCE
+ *   More blue and orange, less grey
+ *   ========================================================= */
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    background:
+    radial-gradient(
+        circle at 18% 24%,
+        rgba(38, 120, 201, 0.105) 0%,
+                    rgba(38, 120, 201, 0.040) 30%,
+                    transparent 55%
+    ),
+    radial-gradient(
+        circle at 82% 72%,
+        rgba(216, 121, 36, 0.095) 0%,
+                    rgba(216, 121, 36, 0.035) 32%,
+                    transparent 56%
+    ),
+    radial-gradient(
+        circle at 52% 48%,
+        rgba(116, 121, 130, 0.025) 0%,
+                    transparent 50%
+    );
+}
+
+/* Keep the Unraid interface above the colour overlay. */
+#content,
+.view-container,
+main,
+div[role="main"],
+.navbar,
+#header,
+#menu,
+#footer,
+footer {
+    position: relative;
+    z-index: 2;
+}
+
+/* =========================================================
+ *   SPECK CONTROLS
+ *   Edit only these values to tune visibility and speed.
+ *   ========================================================= */
+:root {
+    /* 1 = original brightness; 1.25 = 25% brighter */
+    --speck-brightness: 1.25;
+
+    /* Larger values move more slowly; smaller values move faster */
+    --speck-speed-small: 190s;
+    --speck-speed-medium: 120s;
+    --speck-speed-large: 70s;
+
+    /* Twinkle speed */
+    --speck-twinkle-small: 6s;
+    --speck-twinkle-medium: 9s;
+    --speck-twinkle-large: 4s;
+}
+
+/* Fine specks */
+body::before {
+    filter: brightness(var(--speck-brightness));
+    animation:
+    drift-s var(--speck-speed-small) linear -95s infinite,
+    twinkle-a var(--speck-twinkle-small) ease-in-out 0s infinite alternate;
+}
+
+/* Medium specks */
+html::before {
+    filter: brightness(var(--speck-brightness));
+    animation:
+    drift-m var(--speck-speed-medium) linear -60s infinite,
+    twinkle-b var(--speck-twinkle-medium) ease-in-out 3s infinite alternate;
+}
+
+/* Larger specks */
+html::after {
+    filter: brightness(var(--speck-brightness));
+    animation:
+    drift-l var(--speck-speed-large) linear -35s infinite,
+    twinkle-c var(--speck-twinkle-large) ease-in-out 1s infinite alternate;
+}
+
+/* =========================================================
+ *   GRADIENT ANTI-BANDING / DITHER
+ *   A very subtle monochrome noise layer hides visible colour
+ *   steps in dark gradients. Increase/decrease --dither-opacity
+ *   only if needed.
+ *   ========================================================= */
+:root {
+    --dither-opacity: 0.70;
+}
+
+body::after {
+    background-image:
+    radial-gradient(
+        circle at 18% 24%,
+        rgba(38, 120, 201, 0.105) 0%,
+                    rgba(38, 120, 201, 0.040) 30%,
+                    transparent 55%
+    ),
+    radial-gradient(
+        circle at 82% 72%,
+        rgba(216, 121, 36, 0.095) 0%,
+                    rgba(216, 121, 36, 0.035) 32%,
+                    transparent 56%
+    ),
+    radial-gradient(
+        circle at 52% 48%,
+        rgba(116, 121, 130, 0.025) 0%,
+                    transparent 50%
+    ),
+    url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAiIGhlaWdodD0iMTYwIj4KPGZpbHRlciBpZD0ibiIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSI+CjxmZVR1cmJ1bGVuY2UgdHlwZT0iZnJhY3RhbE5vaXNlIiBiYXNlRnJlcXVlbmN5PSIwLjgyIiBudW1PY3RhdmVzPSIzIiBzZWVkPSI3Ii8+CjxmZUNvbG9yTWF0cml4IHR5cGU9InNhdHVyYXRlIiB2YWx1ZXM9IjAiLz4KPGZlQ29tcG9uZW50VHJhbnNmZXI+CjxmZUZ1bmNSIHR5cGU9ImxpbmVhciIgc2xvcGU9IjAuNyIgaW50ZXJjZXB0PSIwLjE1Ii8+CjxmZUZ1bmNHIHR5cGU9ImxpbmVhciIgc2xvcGU9IjAuNyIgaW50ZXJjZXB0PSIwLjE1Ii8+CjxmZUZ1bmNCIHR5cGU9ImxpbmVhciIgc2xvcGU9IjAuNyIgaW50ZXJjZXB0PSIwLjE1Ii8+CjxmZUZ1bmNBIHR5cGU9InRhYmxlIiB0YWJsZVZhbHVlcz0iMCAwLjAzMiIvPgo8L2ZlQ29tcG9uZW50VHJhbnNmZXI+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWx0ZXI9InVybCgjbikiLz4KPC9zdmc+");
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    background-size: auto, auto, auto, 160px 160px;
+    opacity: var(--dither-opacity);
+}
+
